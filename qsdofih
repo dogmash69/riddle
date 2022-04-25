@@ -1,0 +1,12 @@
+switch (random) {
+                //si la réponse est inférieure au nombre random
+                case (number < random):
+                console.log("C'est plus");
+                break;
+                // si la réponse est supérieure au nombre random
+                case (number > random):
+                    console.log("C'est moins");
+                break;
+                // si c'est la bonne réponse
+                default:
+                    console.log('CHAMPION!' + " " + userName);
